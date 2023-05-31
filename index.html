@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html>
+    <head lang="en">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/7e2e9f3989.js" crossorigin="anonymous"></script>
+        <title>Document</title>
+    </head>
+    <header>
+        <div class="options">
+          <button class="btn btn1"><i class="fa-solid fa-stopwatch"></i><i class="fa-solid fa-sort-down"></i></button> 
+          <button class="btn btn2" onclick="location.href='/theApp/stopwatch.html'"><i class="fa-solid fa-clock"></i></button>  
+          <button class="btn btn3"><i class="fa-solid fa-hourglass"></i></button>
+          <button class="btn btn4"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+          <button class="btn btn5"><i class="fa-solid fa-circle-plus"></i></button>
+        </div>
+        <div class="dropdown">
+            <div class="drop-link drop-link0">
+                <a href="#" class="drop-content">New app coming</a>
+                <a href="#" class="drop-content">New app coming</a>
+                <a href="#" class="drop-content">New app coming</a>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="container">
+            <div class="board">
+                00:00:00
+            </div>
+            <div class="board2">
+                <button class="keys reset-btn">Reset</button>
+                <button class="keys start-btn">Start</button>
+                <button class="keys stop-btn">Stop</button>
+            </div>
+            <div class="keyboard">
+                <button class="keys key1">1</button>
+                <button class="keys key2">2</button>
+                <button class="keys key3">3</button>
+                <button class="keys key4">4</button>
+                <button class="keys key5">5</button>
+                <button class="keys key6">6</button>
+                <button class="keys key7">7</button>
+                <button class="keys key8">8</button>
+                <button class="keys key9">9</button>
+                <button class="keys key-"><i class="fa-solid fa-minus"></i></button>
+                <button class="keys key0">0</button>
+                <div class="dropdown dropdown1">
+                    <div class="drop-link drop-link1 timers">
+                        <div class="drop-content sec15">15 SEC</div>
+                        <div class="drop-content sec30">30 SEC</div>
+                        <div class="drop-content min1">1 MIN</div>
+                        <div class="drop-content min2">2 MIN</div>
+                        <div class="drop-content min5">5 MIN</div>
+                    </div>
+                    <button class="keys keyClock"><i class="fa-solid fa-clock fa-xs"></i></button>
+                </div>
+                <button class="keyEmpty"></button>
+                <div class="dropdown dropdown1">
+                    <div class="drop-link drop-link2 timers">
+                        <div class="drop-content chime">Chimes</div>
+                        <div class="drop-content bell">Bells</div>
+                        <div class="drop-content alarm">Alarms</div>
+                    </div>
+                    <button class="keys keyBell"><i class="fa-solid fa-bell fa-2xs"></i></button>
+                </div>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    <footer>
+        <div class="footCaption">The first app I created myself!</div>
+    </footer>
+</html>

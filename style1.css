@@ -1,0 +1,199 @@
+body{
+    background: rgb(46, 46, 46);
+    margin: 0;
+}
+
+.options{
+    aspect-ratio: 32/1;
+    width: 100%;
+    background: grey;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    left: 250%;
+}
+
+.btn{
+    aspect-ratio: 12/9;
+    height: 80%;
+    background: rgb(84, 83, 83);
+    color: rgb(214, 212, 212);
+    border: none;
+    margin: 0.1rem; 
+}
+
+.btn1{
+    margin-left: 12%;
+    aspect-ratio: 12/7;
+    height: 80%;
+    
+}
+
+.btn:hover{
+    background-color: rgb(49, 48, 48);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.board{
+    display: flex;
+    background: rgb(27, 26, 31);
+    align-items: center;
+    aspect-ratio: 16/3;
+    width: 80%;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 9vw;
+}
+
+.board2{
+    margin: 1rem 0;
+    width: 80%;
+    display: flex;
+    aspect-ratio: 16/1;
+}
+
+.board2 > button{
+    aspect-ratio: 16/1;
+    width: 50%;
+    background: grey;
+    font-size: 1.5rem
+}
+
+.stop-btn{
+    display: none;
+    aspect-ratio: 16/1;
+    width: 50%;
+    background: grey;
+    font-size: 1.5rem
+}
+
+.board2 > button:hover{
+    background: rgb(78, 77, 77);
+}
+
+.keys:hover{
+    background: rgb(19, 18, 18);
+}
+
+.keyboard{
+    width: 80%;
+    display: none;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 0.1rem;
+}
+
+.keys{
+    background: rgb(66, 64, 64);
+    aspect-ratio: 16/4;
+    width: 100%;
+    margin: 1px;
+    border: none;
+    border-radius: 3px;
+    font-size: 2rem;
+    color: white;
+}
+
+.keyEmpty{
+    background: none;
+    border: none;
+}
+
+.keyBell{
+    align-self: center;
+    
+}
+
+footer{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.footCaption{
+    padding: -1rem;
+    text-align: center;;
+    color: white;
+    background: rgb(63, 62, 62);
+    font-size: 1.5rem;
+    width: 80%;
+    aspect-ratio: 30/1;;
+    border: solid black 1px;
+    border-radius: 3px;
+    line-height: 150%;
+}
+
+.drop-link{
+    display: none;
+    flex-direction: column;
+    background: rgb(84, 83, 83);
+    color: rgb(214, 212, 212);
+    border: none;
+    margin: 0.1rem; 
+    margin-left: 12%;
+    padding: 0.5%;
+    width: 13%;
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
+    border-radius: 0.2rem;
+    opacity: 1;
+    position: absolute;
+}
+
+.drop-link.active{
+    display: flex;
+    flex-direction: column;
+    background: rgb(84, 83, 83);
+    color: rgb(214, 212, 212);
+    border: none;
+    margin: 0.1rem; 
+    margin-left: 12%;
+    padding: 0.5%;
+    width: 13%;
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
+    border-radius: 0.2rem;
+    opacity: 1;
+    position: absolute;
+}
+
+.drop-content{
+    text-decoration: none;
+    color: white;
+}
+
+.drop-content:hover{
+    text-decoration: none;
+    color: rgb(179, 175, 175);
+}
+
+.dropdown1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: bottom;
+    
+}
+
+.timers{
+    transform: translate(-85%, -52%);
+    width: 10%;
+    background: rgb(66, 64, 64);
+    border: solid rgb(39, 39, 39) 0.1em;
+}
+
